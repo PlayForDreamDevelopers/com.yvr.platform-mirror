@@ -1,0 +1,21 @@
+- name: Platform
+  href: ./Platform.md
+  items:
+      - name: 鉴权
+        href: ./EntitlementCheck.md
+      - name: 账号与好友
+        href: ./AccountAndFriends.md
+      - name: 成就
+        href: ./Achievement.md
+      - name: 深度链接
+        href: ./DeepLink.md
+      - name: 排行榜
+        href: ./Leaderboard.md
+      - name: 内购
+        items:
+            - name: 客户端 API
+              href: ./IAPClient.md
+            - name: 服务端 API
+              href: ./IAPServer.md
+      - name: 运动数据授权
+        href: ./SportsDataAuthorization.md

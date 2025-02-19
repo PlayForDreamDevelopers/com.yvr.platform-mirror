@@ -1,0 +1,21 @@
+- name: Platform
+  href: ./Platform.md
+  items:
+      - name: Entitlement Check
+        href: ./EntitlementCheck.md
+      - name: Account And Friends
+        href: ./AccountAndFriends.md
+      - name: Achievement
+        href: ./Achievement.md
+      - name: DeepLink
+        href: ./DeepLink.md
+      - name: Leaderboard
+        href: ./Leaderboard.md
+      - name: In-App Purchase
+        items:
+            - name: Client API
+              href: ./IAPClient.md
+            - name: Server API
+              href: ./IAPServer.md
+      - name: Sports Data Authorization
+        href: ./SportsDataAuthorization.md
