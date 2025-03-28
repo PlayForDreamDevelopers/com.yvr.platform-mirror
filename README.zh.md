@@ -7,7 +7,7 @@
     </a>
     <h1 align="center"> com.yvr.platform-mirror </h1>
     <p align="center">
-       com.yvr.platform-mirror 包的镜像仓库
+       com.yvr.platform 包的镜像仓库
         <br />
         <a href="https://github.com/PlayForDreamDevelopers/com.yvr.platform-mirror"><strong>查看文档 »</strong></a>
         <br />
@@ -25,7 +25,7 @@
 
 ## 关于项目
 
-这是 `com.yvr.platform-mirror` 包的镜像仓库。
+这是 `com.yvr.platform` 包的镜像仓库。
 
 ### 示例
 
