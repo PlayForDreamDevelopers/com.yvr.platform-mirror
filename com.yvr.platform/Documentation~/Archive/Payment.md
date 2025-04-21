@@ -1,14 +1,14 @@
 # In-App Purchase
 
 > [!Important]
-> Before using any platform features, developers have to initialize Platform SDK first. Refer to [Platform](../Platform.md) for more information.
+> Before using any platform features, developers have to initialize Platform SDK first. Refer to [Platform](./Platform.md) for more information.
 
 YVR Payment is a current payment system based on YVR account system. The payment settlement is done by YVR's game currency (Y coin). Users will need to enter YVR user centre to top-up their account.
 
 
 ## Add Product
 
-1. Login to [Management Center](https://developer.pfdm.cn/yvrdev/all_apps). 
+1. Login to [Management Center](https://developer.yvr.cn/yvrdev/all_apps). 
 
 2. Click on the app that you have created, select **My apps > Platform Services > In-App Purchases**. Click Create to add new product. 
 

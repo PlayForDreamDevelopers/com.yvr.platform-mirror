@@ -13,7 +13,7 @@ Leaderboard is a way to keep track of players and their scores in relation to ot
 
 To create a leaderboard in YVR Developer Center, please refer to the following steps:
 
-1. Log in to [Management Center](https://developer.pfdm.cn/yvrdev/all_apps).
+1. Log in to [Management Center](https://developer.yvr.cn/yvrdev/all_apps).
 
 2. Select the app that is set to use the leaderboard. Enter the app page. 
 

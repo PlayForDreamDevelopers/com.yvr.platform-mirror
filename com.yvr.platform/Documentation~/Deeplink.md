@@ -11,3 +11,4 @@ App deep linking allows you to join a multiplayer session when open an applicati
 
 > [!Note]
 > For more information, please refer to [Deeplink API Documentation](xref:YVR.Platform.Deeplink).
+

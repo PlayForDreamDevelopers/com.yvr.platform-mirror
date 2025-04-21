@@ -9,7 +9,7 @@ YVR Payment is a current payment system based on YVR account system. The payment
 > For Mainland China, if the app is categorized as "Game" and did not obtain version no., IAP service cannot be used in the app. For non-Mainland regions, IAP service is available to all.
 
 > [!Note]
-> The IAP service supported in versions prior to Unity SDK 2.3.0 has been deprecated, please migrate to the new version as soon as possible. For more information, refer to [In-App Purchase](./IAPClient.md).
+> The IAP service supported in versions prior to Unity SDK 2.3.0 has been deprecated, please migrate to the new version as soon as possible. For more information, refer to [In-App Purchase](./Payment.md).
 
 ## Payment process
 
@@ -26,7 +26,7 @@ YVR Payment is a current payment system based on YVR account system. The payment
 
 ## Add Product
 
-1. Login to [Management Center](https://developer.pfdm.cn/yvrdev/all_apps). 
+1. Login to [Management Center](https://developer.yvr.cn/yvrdev/all_apps). 
 
 2. Click on the app that you have created, select **My apps > Platform Services > Add-ons**.  
 

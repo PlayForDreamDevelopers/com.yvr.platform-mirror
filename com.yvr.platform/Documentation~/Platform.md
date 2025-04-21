@@ -25,7 +25,7 @@ else
 ```
 
 > [!Note]
-> In order to get an AppID, you need to first register as a developer on our [developer platform](https://developer.pfdm.cn/yvrdvcenter/) and then create your application.
+> In order to get an AppID, you need to first register as a developer on our [developer platform](https://developer.yvr.cn/yvrdvcenter/) and then create your application.
 
 
 ## Sample
