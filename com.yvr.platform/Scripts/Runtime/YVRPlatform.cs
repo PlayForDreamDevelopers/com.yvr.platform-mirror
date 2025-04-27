@@ -710,6 +710,26 @@ namespace YVR.Platform
             return s_IAPJavaClass.CallStatic<int>("consumePurchase", uniqueId);
         }
 
+        internal static int YVRIAPGetStatusOfPurchase(AndroidJavaObject obj)
+        {
+            return s_IAPJavaClass.CallStatic<int>("getStatusOfPurchase",obj);
+        }
+
+        internal static int YVRIAPGetHoursOfPurchase(AndroidJavaObject obj)
+        {
+            return s_IAPJavaClass.CallStatic<int>("getHoursOfPurchase",obj);
+        }
+
+        internal static int YVRIAPGetMinutesOfPurchase(AndroidJavaObject obj)
+        {
+            return s_IAPJavaClass.CallStatic<int>("getMinutesOfPurchase", obj);
+        }
+
+        internal static int YVRIAPStartMovie(string sku)
+        {
+            return s_IAPJavaClass.CallStatic<int>("startMovie", sku);
+        }
+
         #endregion
 
         #region Sport

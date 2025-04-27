@@ -1,8 +1,34 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace YVR.Platform
 {
+    public enum MovieStatus
+    {
+        NotWatched = 0,
+        Watching = 1,
+        OutOfDate = 2
+    }
+
+    public class IAPMovie
+    {
+        public MovieStatus status => (MovieStatus)YVRPlatform.YVRIAPGetStatusOfPurchase(m_Obj);
+        public TimeSpan remainingTime => new(YVRPlatform.YVRIAPGetHoursOfPurchase(m_Obj), YVRPlatform.YVRIAPGetMinutesOfPurchase(m_Obj), 0);
+
+        private readonly AndroidJavaObject m_Obj;
+
+        public IAPMovie(AndroidJavaObject obj)
+        {
+            m_Obj = obj;
+        }
+
+        public override string ToString()
+        {
+            return $"{nameof(status)}: {status}, {nameof(remainingTime)}: {remainingTime}";
+        }
+    }
+
     public class IAPPurchasedProduct
     {
         /// <summary>
@@ -26,9 +52,13 @@ namespace YVR.Platform
         public readonly string icon;
 
         /// <summary>
-        /// Add on type of purchased product, 1:consumable, 2:non-consumable
+        /// Add on type of purchased product, 1:consumable, 2:non-consumable, 3:movie
         /// </summary>
         public readonly int addOnType;
+
+        public bool isMovie => addOnType == 3;
+
+        public readonly IAPMovie movieData;
 
         public IAPPurchasedProduct(AndroidJavaObject obj)
         {
@@ -37,6 +67,7 @@ namespace YVR.Platform
             name = YVRPlatform.YVRIAPGetNameOfPurchasedProduct(obj);
             icon = YVRPlatform.YVRIAPGetIconOfPurchasedProduct(obj);
             addOnType = YVRPlatform.YVRIAPGetTypeOfPurchasedProduct(obj);
+            movieData = isMovie ? new IAPMovie(obj) : null;
         }
 
         public override string ToString()
@@ -48,6 +79,7 @@ namespace YVR.Platform
             str.Append($"name:[{name}],\n\r");
             str.Append($"icon:[{icon}],\n\r");
             str.Append($"addOnType:[{addOnType}],\n\r");
+            str.Append($"movieData:[{movieData}]");
 
             return str.ToString();
         }

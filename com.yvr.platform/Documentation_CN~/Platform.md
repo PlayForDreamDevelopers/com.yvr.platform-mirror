@@ -24,7 +24,7 @@ else
 ```
 
 > [!NOTE]
-> 获得一个 AppID 之前，你需要先在我们的[开发者平台](https://developer.yvr.cn/yvrdvcenter/)上注册为开发者，然后创建你的应用程序。
+> 获得一个 AppID 之前，你需要先在我们的[开发者平台](https://developer.pfdm.cn/yvrdvcenter/)上注册为开发者，然后创建你的应用程序。
 
 
 ## 示例

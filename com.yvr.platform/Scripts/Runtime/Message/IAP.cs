@@ -49,5 +49,17 @@ namespace YVR.Platform
                 ? new YVRRequest(YVRPlatform.YVRIAPConsumePurchasedProduct(sku))
                 : null;
         }
+
+        /// <summary>
+        /// Mark that a certain movie has started playing
+        /// </summary>
+        /// <param name="sku">Movie`s sku</param>
+        /// <returns></returns>
+        public static YVRRequest StartMovie(string sku)
+        {
+            return YVRPlatform.isInitialized
+                ? new YVRRequest(YVRPlatform.YVRIAPStartMovie(sku))
+                : null;
+        }
     }
 }

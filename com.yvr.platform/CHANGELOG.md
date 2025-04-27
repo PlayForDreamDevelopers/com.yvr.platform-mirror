@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.6.0] - 2024-4-27
+
+### Changed
+
+- 适配 Utilities 的命名空间
+
 ## [0.5.3] - 2024-4-2
 
 ### Changed

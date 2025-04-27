@@ -1,14 +1,14 @@
 # 应用内购
 
 > [!Important]
-> 在使用任何平台功能之前，开发者首先需要初始化 Platform SDK。更多详情，请参考 [Platform](./Platform.md)。
+> 在使用任何平台功能之前，开发者首先需要初始化 Platform SDK。更多详情，请参考 [Platform](../Platform.md)。
 
 YVR 支付是一个基于 YVR 账户系统的当前支付系统。支付结算由 YVR 的游戏货币（Y币）完成。用户需要进入 YVR 用户中心为其账户充值。
 
 
 ## 添加商品
 
-1. 登入[开发者中心](https://developer.yvr.cn/yvrdev/all_apps)。
+1. 登入[开发者中心](https://developer.pfdm.cn/yvrdev/all_apps)。
 
 2. 点击已创建应用，选择 **应用 > 平台服务 > 应用内购买**，点击创建。
 

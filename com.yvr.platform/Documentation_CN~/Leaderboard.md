@@ -13,7 +13,7 @@
 
 在YVR开发者中心可创建排行榜，步骤如下：
 
-1. 登录[管理中心](https://developer.yvr.cn/yvrdev/all_apps)
+1. 登录[管理中心](https://developer.pfdm.cn/yvrdev/all_apps)
 
 2. 打开需要设置排行榜的应用，进入应用页。
 
