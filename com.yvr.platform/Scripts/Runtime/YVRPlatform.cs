@@ -645,6 +645,11 @@ namespace YVR.Platform
             return s_IAPJavaClass.CallStatic<float>("getPriceOfProduct", obj);
         }
 
+        internal static int YVRIAPGetCurrencyOfProduct(AndroidJavaObject obj)
+        {
+            return s_IAPJavaClass.CallStatic<int>("getCurrencyOfProduct", obj);
+        }
+
         internal static string YVRIAPGetIconOfProduct(AndroidJavaObject obj)
         {
             return s_IAPJavaClass.CallStatic<string>("getScoverOfProduct", obj);

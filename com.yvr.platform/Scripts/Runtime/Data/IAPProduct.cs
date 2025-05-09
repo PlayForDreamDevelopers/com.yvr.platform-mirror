@@ -43,6 +43,11 @@ namespace YVR.Platform
         /// </summary>
         public readonly float price;
 
+        /// <summary>
+        /// 0: RMB, 1: USD
+        /// </summary>
+        public readonly int currency;
+
         public IAPProduct(AndroidJavaObject obj)
         {
             appID = YVRPlatform.YVRIAPGetAppIdOfProduct(obj);
@@ -52,6 +57,7 @@ namespace YVR.Platform
             icon = YVRPlatform.YVRIAPGetIconOfProduct(obj);
             addOnType = YVRPlatform.YVRIAPGetTypeOfProduct(obj);
             price = YVRPlatform.YVRIAPGetPriceOfProduct(obj);
+            currency = YVRPlatform.YVRIAPGetCurrencyOfProduct(obj);
         }
 
         public override string ToString()
