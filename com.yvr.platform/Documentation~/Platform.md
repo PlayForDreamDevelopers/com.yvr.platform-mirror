@@ -33,22 +33,14 @@ else
 > [!Important]
 > YVR system version requirement: 1.2.6 and above
 
-Please follow the steps to import Sample Project. [Platform Sample](https://github.com/YVRDeveloper/PlatformSample-Unity) is also available at [YVR Developer Github](https://github.com/YVRDeveloper).
+[Platform Sample](https://github.com/YVRDeveloper/PlatformSample-Unity) is also available at [PlayForDreamDevelopers Github](https://github.com/PlayForDreamDevelopers).
 
-1. Import Platform SDK.
-
-2. Go to **Window** > **Package Manager** > **Platform** > **Samples**, select **Import** button to import Platform Samples.
+1. Under Project panel, go to **Assets** > **Samples** folder to view the sample project. 
     <br />
-    ![ImportSamples](./Samples/ImportSamples.png)
-
-3. Under Project panel, go to **Assets** > **Samples** > **YVR Platform** > *[**platform version number**]*. Select **Initialize** folder to view the sample project. 
+    ![ProjectFolder](./Samples/ProjectFolder.jpg)
     <br />
-    ![ProjectFolder](./Samples/ProjectFolder.png)
-    <br />
-    > [!Note]
-    > The platform version number depends on the version you have imported, e.g. 0.5.1.
 
-4. Build and install on YVR device. 
+2. Build and install on YVR device. 
     <br />
     ![InitializeSample](./Samples/InitializeSample.png)
     <br /><br />
