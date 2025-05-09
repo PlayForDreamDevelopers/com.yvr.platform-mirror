@@ -70,7 +70,7 @@ public enum OperationType
     GetProductsBySKU = 5,
     LaunchCheckoutFlow = 6,
     GetViewerPurchases = 7,
-    ConsumePurchase = 8,
+    ConsumePurchase_Obsolete = 8,
     GetAllDefinitions = 9,
     GetAllProgress = 10,
     GetDefinitionByName = 11,
@@ -84,4 +84,5 @@ public enum OperationType
     GetSportUserInfo = 19,
     GetSportSummary = 20,
     GetSportDailySummary = 21,
+    StartMovie = 8001,
 }
